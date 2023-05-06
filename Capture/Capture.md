@@ -26,7 +26,7 @@ Nmap done: 1 IP address (1 host up) scanned in 5.15 seconds
 ### There's a website. Let's check it with our browser:
 ![Screenshot](./images/screen1.png)
 
-### **Login page!** Errors and incorrect credentials is our close friends right now! (you have to enter something and try to login)
+### **Login page!** Errors and incorrect credentials are our close friends right now! (you have to enter something and try to login)
 ![Screenshot](./images/screen2.png)
 
 ### **Oh no...** But now we do know, that the first security breach of this login form is that it shows us, whether the user exist or not! It is important to remember this.
