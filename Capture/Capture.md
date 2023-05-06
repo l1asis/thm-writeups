@@ -29,7 +29,7 @@ Nmap done: 1 IP address (1 host up) scanned in 5.15 seconds
 ### **Login page!** Errors and incorrect credentials are our close friends right now! (you have to enter something and try to login)
 ![Screenshot](./images/screen2.png)
 
-### **Oh no...** But now we do know, that the first security breach of this login form is that it shows us, whether the user exist or not! It is important to remember this.
+### **Oh no...** But now we know that the first security breach of this login form is that it shows us whether the user exists or not! It's important to keep this in mind.
 
 ## ***Step 2.1: Dictionary attack with Hydra***
 ### I will say up front, I tried to breach this login form with 'hydra' right away, but the long time without results showed that there was something else we didn't take into account...
